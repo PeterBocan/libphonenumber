@@ -274,6 +274,7 @@ You will need to manually fetch and install the following dependencies:
     http://www.boostpro.com/download/
     * Select all the variants and Boost DateTime and Boost Thread during the
       installation process.
+    * Set variable BOOST_ROOT path in CMAKE. 
     See Linux instructions for information about thread-safety.
 
   - GTest (tested with v1.6.0):
